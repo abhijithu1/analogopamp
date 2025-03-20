@@ -1,2 +1,3 @@
 commands for magic: 
 magic -rc /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc
+github token - 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
