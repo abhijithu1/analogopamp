@@ -1,14 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1742490926
+timestamp 1742907183
 << error_p >>
 rect -29 123 29 129
 rect -29 89 -17 123
 rect -29 83 29 89
-rect -29 -89 29 -83
-rect -29 -123 -17 -89
-rect -29 -129 29 -123
 << nwell >>
 rect -211 -261 211 261
 << pmos >>
@@ -46,13 +43,8 @@ rect 17 89 33 123
 rect -33 73 33 89
 rect -15 42 15 73
 rect -15 -73 15 -42
-rect -33 -89 33 -73
-rect -33 -123 -17 -89
-rect 17 -123 33 -89
-rect -33 -139 33 -123
 << polycont >>
 rect -17 89 17 123
-rect -17 -123 17 -89
 << locali >>
 rect -175 191 -79 225
 rect 79 191 175 225
@@ -64,8 +56,6 @@ rect -61 30 -27 46
 rect -61 -46 -27 -30
 rect 27 30 61 46
 rect 27 -46 61 -30
-rect -33 -123 -17 -89
-rect 17 -123 33 -89
 rect -175 -191 -141 -129
 rect 141 -191 175 -129
 rect -175 -225 -79 -191
@@ -74,7 +64,6 @@ rect 79 -225 175 -191
 rect -17 89 17 123
 rect -61 -30 -27 30
 rect 27 -30 61 30
-rect -17 -123 17 -89
 << metal1 >>
 rect -29 123 29 129
 rect -29 89 -17 123
@@ -88,10 +77,6 @@ rect 21 30 67 42
 rect 21 -30 27 30
 rect 61 -30 67 30
 rect 21 -42 67 -30
-rect -29 -89 29 -83
-rect -29 -123 -17 -89
-rect 17 -123 29 -89
-rect -29 -129 29 -123
 << labels >>
 rlabel nsubdiffcont 0 -208 0 -208 0 B
 port 9 nsew
